@@ -1,0 +1,14 @@
+CREATE TABLE CUSTOMER_INFO (
+    CUSTOMER_ID INT PRIMARY KEY,
+    FIRST_NAME VARCHAR(50),
+    LAST_NAME VARCHAR(50),
+    EMAIL_ADDRESS VARCHAR(100),
+    PHONE_NUMBER VARCHAR(10)
+);
+
+INSERT INTO CUSTOMER_INFO (CUSTOMER_ID, FIRST_NAME, LAST_NAME, EMAIL_ADDRESS, PHONE_NUMBER) VALUES
+(1, 'Alice', 'Johnson', 'alice.johnson@example.com', '5551234567'),
+(2, 'Bob', 'Smith', 'bob.smith@example.com', '5552345678'),
+(3, 'Carol', 'Williams', 'carol.williams@example.com', '5553456789'),
+(4, 'David', 'Brown', 'david.brown@example.com', '5554567890'),
+(5, 'Eve', 'Davis', 'eve.davis@example.com', '5555678901');
